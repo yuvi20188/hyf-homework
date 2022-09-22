@@ -1,0 +1,13 @@
+* {
+margin: 0px;
+padding: 0px; }
+ body {
+text-align: center;
+background-color: #e4f30e;
+color: hsl(253, 93%, 45%); }
+
+h1, h2 {
+font-weight: bold;
+font-family: sans-serif;
+text-align: center;
+}
