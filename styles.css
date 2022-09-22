@@ -1,5 +1,5 @@
 * {
-margin: 0px;
+margin: 10px;
 padding: 0px; }
  body {
 text-align: center;
@@ -10,4 +10,9 @@ h1, h2 {
 font-weight: bold;
 font-family: sans-serif;
 text-align: center;
+}
+img {
+    height: 500px;
+    width: 25%;
+    
 }
