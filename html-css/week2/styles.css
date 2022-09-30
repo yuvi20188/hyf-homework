@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+   
+
+  header {
+    list-style-type:none;
+  }
+  .web {
+    display:flex;
+    justify-content:center;
+    padding: 80px 20px 5px 60px;
+    font-family:sans-serif;
+    font-size:xx-large;
+    font-weight: bold;
+    background-color: rgb(172, 189, 182);
+  }
+  .article {
+    display:flex;
+    justify-content:center;
+    font-family:sans-serif;
+    color: rgb(62, 63, 63);
+    background-color: rgb(172, 189, 182);
+
+  }
+  .list {
+    list-style-type:none;
+    display:flex;
+    align-items:flex-start;
+    padding: 20px 20px 10px 60px;
+    font-family:sans-serif;
+    font-weight:bold;
+  }
+
+  li {
+    padding: 20px 20px 10px 60px;
+  }
+
+  .web-industry {
+   width:100%;
+   height:15%;
+  }
+  body {
+    list-style-type:none
+  }
+  .text  {
+    list-style-type:none;
+    display:flex;
+    font-family:sans-serif;
+    font-weight:bold;
+    justify-content:space-between;
+    flex-direction:row;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  
+  .gallery {
+    list-style-type:none;
+    display:flex;
+    font-family:sans-serif;
+    font-weight:bold;
+    justify-content:space-between;
+    
+    
+  }  
+  
+   .gal {
+    padding: 5px 5px;
+    text-align:center;
+  }
+   .logotypes {
+    padding: 0 0 0 5px;
+    text-align:center;
+   }
+   
+
+   .logotypes {
+    font-weight:bold;
+  
+   }
+   .logoti {
+    text-align:right;
+    
+   }
+   
+   .develop {
+    text-align:left;
+
+   }
+   .practik {
+    text-align:left;
+   }
+   
+   .develop, .practik, .gal, .logotypes {
+    padding: 10px;
+    font-size: 20px;
+   }
+  .one, .two, .develo {
+    color: rgb(58, 59, 59);
+    padding: auto;
+  }
+
+  .foota {
+    color: rgb(235, 247, 247);
+    background-color: blueviolet;
+    border-spacing: 20px; 
+    font-stretch:150%;
+    font-weight:bold; 
+    font-family:sans-serif;
+    text-align:left;
+    padding: 20px 60px 10px 60px;
+    display:flex;
+    justify-content:space-around;
+  
+    } 
+    .wrapper {
+      display:flex;
+      flex-direction:column;
+      height: 100%;
+    }
+    
+    table {
+    width:100%;
+    }
+    .footer {
+    display:flexbox;
+    justify-content:row;
+    width: 100%;
+    height: 100%;
+    }
+
+   
+   td, th {
+    text-align:left;
+    padding: 20px;
+   }
+   .logob,.logoc, .logoa, .logod {
+    padding: 10px 90px;
+  
+   }
+   .logoe, .logof, .logoj, .logok {
+    padding: 10px 90px;
+   }
+   .logol, .logom, .logon, .logoo  {
+    padding: 10px 90px;
+   }
+   
+   
+   
