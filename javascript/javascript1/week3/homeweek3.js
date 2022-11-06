@@ -61,7 +61,7 @@ function saveNote(content, id) {
     content: "Do laundry",
     id: 2,
   };
-  
+
   notes.push(obj);
   notes.push(obj1);
 }
@@ -69,5 +69,4 @@ saveNote("Pick up groceries", 1);
 saveNote("Do laundry", 2);
 console.log(notes);
 
-//Get a note
-
+//Get a note.
