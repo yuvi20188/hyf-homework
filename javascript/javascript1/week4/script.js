@@ -41,8 +41,8 @@ recognition.onresult = function (event) {
   {
     function myFunction() {
       alert("Timer is ready");
+      <button onclick="setTimeout(myFunction, 240000)">Click Me</button>;
+      inputArea.innerHTML = event.results[0][0].transcript;
     }
-    <button onclick="setTimeout(myFunction, 240000)">Click Me</button>;
-    inputArea.innerHTML = event.results[0][0].transcript;
   }
 };
