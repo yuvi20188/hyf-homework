@@ -51,8 +51,6 @@ console.log(`Matchmakers took ${qualityLife} of my life`);
 //Save a note.
 const notes = [];
 function saveNote(content, id) {
-  const content = obj;
-  const id = obj1;
   const obj = {
     content: "Pick up groceries",
     id: 1,
