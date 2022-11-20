@@ -52,19 +52,26 @@ console.log(`Matchmakers took ${qualityLife} of my life`);
 const notes = [];
 function saveNote(content, id) {
   const obj = {
-    content: "Pick up groceries",
-    id: 1,
-  };
-  const obj1 = {
-    content: "Do laundry",
-    id: 2,
-  };
-
+    content: content,
+    id: id,
+  }
   notes.push(obj);
-  notes.push(obj1);
+  
 }
 saveNote("Pick up groceries", 1);
 saveNote("Do laundry", 2);
 console.log(notes);
 
 //Get a note.
+function getNote(id) {
+  for (var i = 0; i < notes.length; i++) {
+    console.log(notes[i].id);
+    if (id === notes[i].id) {
+      return notes[i];
+    }
+    //Do something
+  } 
+}
+
+const firstNote = getNote(2);
+console.log(firstNote); // {content: 'Pick up groceries', id: 1}
